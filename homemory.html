@@ -6,8 +6,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Блог о проекте HoMemory. Устройство позволяет мониторить состояние электронных или иных устройств в Вашем доме.">
+    <meta name="keywords"
+          content="Homemory, мониторинг домашних устройств, выключить утюг, самовыключающийся утюг, забыл закрыть дверцу холодильника, забыл выключить воду, забыл выключить утюг">
 
     <title>HoMemory</title>
 
@@ -90,48 +91,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <h2 class="section-heading">Скажи-ка дядя мне свой отзыв</h2>
-                    <p>Общение со знакомыми</p>
-                    <p>Подача заявки во ФРИИ</p>
-                    <h2 class="section-heading">Курсок.рф</h2>
 
-                    <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+                    <h2 class="section-heading">Arduno UNO. С прибытием</h2>
+                    <p>Вот и настал тот ожидаемый день. Ко мне приехал набор-конструктор для программирования микроконтроллеров во главе с Arduino UNO</p>
+                    <p>Первые дни у меня не было достаточно времени, чтобы взяться за столь интереную штуковину, и кроме того, как потестить ее работоспособность, я ничего попробовать не успел.</p>
+                    <p>Но вскоре сдались экзамены, и появилось время для пробы этой вещицы во всей ее красе! Я создал пъезопищалку, банальное мигание светодиодом и регулятор яркости света.</p>
+                    <p>Даже на столь малом, даже, я бы сказал, незначительном количестве опытов я осознал - почему люди полюбили эту плату, почему она стала столь востребованной. Я понял, что ее потенциал огромен, а способ ее программирования очень удобен.</p>
+                    <p style="text-align: right;"><i>12 января 2015</i></p>
 
-                    <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+                    <h2 class="section-heading">Пора начинать</h2>
+                    <p>Научившись на старых ошибках (возможно не полностью, но все-таки имея опыт за плечами), я решил, прежде чем рваться в бой с головой, протестировать актуальность данной идеи на людях. Признаться, я раньше не особо рассказывал о своих тараканах в голове, и боялся, что мои идеи могут быть украдены. На самом деле это полнейшая чушь! Никто не украдет твою идею, если она уникальна, в идею заложены твои собсвтенные взгляды, твоя реализация и твои способности, и никто не сделает продукт или услугу так, как ты представляешь это себе.</p>
+                    <p>Я старался рассказывать об идее умного устройства всем, кто хоть как то интересуется моей жизнью. Первой я, конечно же, поведал об этом своей девушке. Она восприняла хорошо и подтвердила актуальность данного устройства. Хотя может она просто уже доверяет мне во всем. Далее я решил рассказать об этом родственникам, в частности бабушке. Она сказала, что для нее это была бы очень удобная вещица. Но я подумал, что продажа для пожилых этого устройства будут затруднительна для меня.</p>
+                    <p>Следующий, с кем я поделился своим нейронным соединением (так создаются идеи в мозге человека) стал преподаватель физики в моем образовательном центре.  Он загорелся этим, но я попросил его потерпеть и "переспать" с данной задумкой. Его ответ был получен через три дня, и он был готов также ръяно создавать новое устройство.</p>
+                    <p>С преподавателем, а теперь и партнером, мы обсудили тонкости реализации, обсудили возможные проблемы в посылке сигнала на брелок о состоянии приборов (вкл/выкл) и тд.</p>
+                    <p>За реалзицаю задумки устройства "HoMemory" я решился взяться более упорно и подал заявку в Фон Российский Интернет Инициатив. На удивление мне, девушка, которая говорила о моих ошибках в заполнении карточки проекта, достаточно хорошо отнеслась к данному проекту, дала ценные рекомендации, сказала обязательно подавать заявку, когда будет готов прототип, и сообщила, что похожих проектов сейчас много, и кто "первый встанет, того и тапки". Меня совершенно не испугала конкуренция. Наоборот, меня невероятно порадовало то, что оказывается похожие проекты набирают популярность, и надо срочно брать все в свои руки.</p>
+                    <p>Использовать в качестве микроконтроллера я решил Arduino UNO(для меня, как для новичка в создании электроники, это показалось наиболее удобным). Первоначальный прототип устройства я представлял себе слудующим образом:<br>Будет существовать центральный приемник. Устройство будет продаваться вместе с передатчиками, которые будут представлять форму скрепки и отправлять сигнал о состоянии того или иного домашнего устройства на приемник. В свою очередь эта центральная коробка должна включать/выключать диоды на брелке для ключей, который также будет в комплекте. Ко всему прочему данные о состоянии домашних девайсов будут отправляться на сервер, чтобы человек мог следить за всем с телефона/планшета/компьютера, находясь вне дома.</p>
+                    <p style="text-align: right;"><i>15 декабря 2014</i></p>
 
-                    <blockquote>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-                    <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-
-                    <h2 class="section-heading">Создание рекламы</h2>
-
-                    <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-
-                    <a href="#">
-                        <img class="img-responsive" src="img/post-sample-image.jpg" alt="">
-                    </a>
-                    <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
-                    <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-                    <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-                    <p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
-
-                    <h2 class="section-heading">CRM - система управления взаимоотношениями с клиентами</h2>
-
-                    <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-
-                    <a href="#">
-                        <img class="img-responsive" src="img/CRM2.png" alt="">
-                    </a>
-                    <span class="caption text-muted">Переработанная система управления клиентами, написанная на php с использованием mySql .</span>
-
-                    <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-                    <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-                    <p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
                 </div>
             </div>
         </div>
@@ -149,7 +125,7 @@
                             <a href="#">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                    <i class="fa fa-vk fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
@@ -165,12 +141,12 @@
                             <a href="#">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                    <i class="fa fa-skype fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2014</p>
+                    <p class="copyright text-muted">Copyright &copy; dobriy_zhuk</p>
                 </div>
             </div>
         </div>
